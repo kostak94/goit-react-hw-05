@@ -8,3 +8,41 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+li {
+  list-style: none;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(193, 203, 200);
+  padding: 20px 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: white;
+  }
+}
+.link {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+.active {
+  color: black !important;
+}
